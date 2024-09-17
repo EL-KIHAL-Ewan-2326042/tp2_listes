@@ -93,7 +93,7 @@ public class DLinkedList {
 
         // SWAP
         // Récupération des références vers les nœuds à échanger
-        NodeD node1 = list.removeFirst();
+        NodeD node1 = list.head;
         NodeD node2 = node1.getNext();
 
         // Échange des nœuds
